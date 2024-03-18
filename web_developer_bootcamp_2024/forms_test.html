@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms test</title>
+</head>
+<body>
+    <h1>forms test</h1>
+    <hr>
+
+    <form action="/form_test">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="color">
+        <input type="number">
+    </form>
+
+    <hr>
+
+    <form action="/form_test">
+        <div>
+            <label for="username">Enter a Username</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter a password</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="color">Choose a Color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="number">Enter a favorite number</label>
+            <input type="number" id="number">
+        </div>
+        <button type="button">button</button>
+        <button>submit</button>
+    </form>
+
+    <hr>
+
+    <form action="https://search.naver.com/search.naver">
+        <input type="text" name="query">
+        <button type="submit">search for naver</button>
+    </form>
+
+    <hr>
+
+    <form action="/forms_test">
+        <p>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Do you agree all things?</label>
+        </p>
+        
+        <p>
+            <h3>choose your favorite game</h3>
+
+            <label for="minecraft">minecraft</label>
+            <input type="radio" name="game" id="minecraft" value="minecraft">
+            <label for="terraria">terraria</label>
+            <input type="radio" name="game" id="terraria" value="terraria">
+            <label for="gta5">GTA5</label>
+            <input type="radio" name="game" id="gta5" value="gta5">
+        </p>
+
+        <p>
+            <label for="meal_type">choose your meal type</label>
+            <select name="meal" id="meal_type">
+                <option value="chicken" selected>chicken</option>
+                <option value="beaf">beaf</option>
+                <option value="pig">pig</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
