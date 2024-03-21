@@ -17,3 +17,40 @@ h1 {
 p {
     line-height: 1.5;
 }
+
+span {
+    background-color: aquamarine;
+}
+
+.a {
+    color: antiquewhite;
+}
+
+.b {
+    color: blue;
+}
+
+#abc {
+    color: red;
+}
+
+ul a {
+    color: orange;
+}
+
+hr + p {
+    font-style: italic;
+}
+
+ul > li {
+    color: yellow;
+}
+
+input[type="password"] {
+    color: magenta;
+}
+
+p::first-letter {
+    color: darkseagreen;
+    font-size: 30px;
+}
